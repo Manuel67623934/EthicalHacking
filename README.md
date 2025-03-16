@@ -18,7 +18,8 @@ https://www.stationx.net/google-dorks-cheat-sheet/
 https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06
 cache:testphp.vulnweb.com
 allintext: hacking tools
-
+```
+```
 | Operador   | Descripción                                                                             | Ejemplo                                |
 |------------|-----------------------------------------------------------------------------------------|----------------------------------------|
 | `allinurl` | Encuentra páginas que contienen todas las palabras clave especificadas en la URL.       | `allinurl:hackthissite admin login`    |
@@ -29,7 +30,8 @@ allintext: hacking tools
 | `intext`   | Busca páginas que contienen la palabra clave especificada en el contenido de la página. | `intext:hackthissite confidential`     |
 | `site`     | Restringe los resultados de búsqueda a un sitio web específico.                         | `site:hackthissite.org`                |
 | `related`  | Encuentra sitios web relacionados con un sitio web específico.                          | `related:hackthissite.org`             |
-
+```
+```
 intitle:"index of" password.
 inurl:admin.php.
 site:yeahhub.com "Steganography"
