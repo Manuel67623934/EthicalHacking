@@ -41,6 +41,8 @@ related:yahoo.com
 allintext:username filetype:log
 *.log files.
 
+inurl:/proc/self/cwd
+filetype:xls inurl:"email.xls"
 ```
 
 
