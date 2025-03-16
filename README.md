@@ -25,7 +25,7 @@ Google Hacking Data Base (GHDB) --> https://www.exploit-db.com/google-hacking-da
 |------------|-----------------------------------------------------------------------------------------|----------------------------------------|
 | `allinurl` | Encuentra páginas que contienen todas las palabras clave especificadas en la URL.       | `allinurl:hackthissite admin login`    |
 | `filetype` | Busca archivos de un tipo específico en el sitio web.                                   | `site:hackthissite.org filetype:pdf`   |
-| `inurl`    | Encuentra páginas que contienen la palabra clave especificada en la URL.                | `inurl:hackthissite password`          |
+| `inurl`    | Encuentra páginas que contienen la palabra clave especificada en la URL.                | `inurl:"email.xls"          |
 | `intitle`  | Busca páginas que contienen la palabra clave especificada en el título de la página.    | `intitle:"Index of" pwd.db |
 | `inanchor` | Encuentra páginas que contienen la palabra clave especificada en el texto de un enlace. | `inanchor:hackthissite forum`          |
 | `intext`   | Busca páginas que contienen la palabra clave especificada en el contenido de la página. | `intext:hackthissite confidential`     |
