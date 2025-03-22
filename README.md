@@ -47,7 +47,46 @@ allintext:username filetype:log
 inurl:/proc/self/cwd
 filetype:xls inurl:"email.xls"
 ```
+*Scanning day*
+```
+Port scanning:
+20 -> UDP  FTP
+22 -> TCP  SSH / FTP
+23 -> TCP  Telnet
+53 -> UDP  DNS 
+80 -> UDP  HTTP
+```
+```
+Types scanning --> port, network, vulnerability
+> netcraft.com
+> shodan.io
+> target used --> https://www.hackthissite.org/    http://altoro.testfire.net
 
+host testphp.vulnweb.com
+nmap testphp.vulnweb.com
+nmap 192.168.116.50-150
+
+list.txt ___________ nmap cheat sheet
+testphp.vulnweb.com
+192.168.116.50
+yahoo.com
+192.168.116.150
+____________________
+nmap -iL list.txt
+
+# Técnicas de escaneo Nmap
+
+| SWITCH | EJEMPLO                | DESCRIPCIÓN                                               |
+| ------ | ---------------------- | --------------------------------------------------------- |
+| -sS    | nmap 192.168.1.1 -sS   | Escaneo de puerto TCP SYN (Predeterminado)                 |
+| -sT    | nmap 192.168.1.1 -sT   | Escaneo de puerto TCP connect (Predeterminado sin privilegios de root) |
+| -sU    | nmap 192.168.1.1 -sU   | Escaneo de puerto UDP                                      |
+| -sA    | nmap 192.168.1.1 -sA   | Escaneo de puerto TCP ACK                                    |
+| -sW    | nmap 192.168.1.1 -sW   | Escaneo de puerto TCP Window                                 |
+| -sM    | nmap 192.168.1.1 -sM   | Escaneo de puerto TCP Maimon                                 |
+
+
+```
 
 
 
