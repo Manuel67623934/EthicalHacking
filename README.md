@@ -62,6 +62,7 @@ Types scanning --> port, network, vulnerability
 > shodan.io
 > target used --> https://www.hackthissite.org/    http://altoro.testfire.net
 
+ping facebook.com
 host testphp.vulnweb.com
 nmap testphp.vulnweb.com
 nmap 192.168.116.50-150
@@ -85,9 +86,28 @@ nmap -iL list.txt
 | -sW    | nmap 192.168.1.1 -sW   | Escaneo de puerto TCP Window                                 |
 | -sM    | nmap 192.168.1.1 -sM   | Escaneo de puerto TCP Maimon                                 |
 
+-sL
+nmap -sV 192.168.116.150
+nmap -A 192.168.116.150
+nmap -T3 
+hpin3 --scan 55-125 -S 192.168.116.11
+hpin3 --scan 55-125 -S -V 192.168.116.11
+
+resources->  https://www.stationx.net/wireshark-cheat-sheet/
+```
+*Evasion IDS / Firewall*
+```
+nmap -D RND:5 192.168.116.119
+nmap -D RND:10 [objetivo] (Genera un número aleatorio de señuelos)
+nmap -D señuelo1, señuelo2, señuelo3, etc. (Especifica manualmente las direcciones IP de los señuelos)
+
+nmap -sT -Pn --spoof-mac 0 192.168.116.119
+nmap --badsum 192.168.116.119
+
+Proxy sqiitcher standar --> https://www-proxyswitcher-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+
 
 ```
-
 
 
 
