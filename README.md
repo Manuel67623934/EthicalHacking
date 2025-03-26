@@ -109,6 +109,11 @@ Proxy sqiitcher standar --> https://www-proxyswitcher-com.translate.goog/?_x_tr_
 
 ```
 
+**NFS**
+```
+man rpcinfo
+
+```
 
 
 
@@ -122,9 +127,3 @@ Proxy sqiitcher standar --> https://www-proxyswitcher-com.translate.goog/?_x_tr_
 
 
 
-
-
-
-
-
-**Target for learning**
