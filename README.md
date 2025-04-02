@@ -109,10 +109,60 @@ Proxy sqiitcher standar --> https://www-proxyswitcher-com.translate.goog/?_x_tr_
 
 ```
 
-**NFS**
+**Social Engineering**
 ```
-man rpcinfo
+Basada en humanos:
 
+Observación por encima del hombro (Shoulder Surfing)
+Buceo en la basura (Dumpster Diving)
+Ingeniería social inversa (Reverse Social Engineering)
+Aprovechamiento de acceso (Piggybacking)
+Seguimiento de cerca (Tailgating)
+Robo por distracción (Diversion Theft)
+Trampa de miel (Honey Trap)
+Cebo (Baiting)
+Intercambio (Quid Pro Quo)
+Obtención de información (Elicitation)
+-----------------------------------------------------
+-----------------------------------------------------
+Basada en computadoras:
+
+Ingeniería Social basada en computadora
+La ingeniería social basada en computadora se apoya en computadoras y sistemas de Internet para llevar a cabo la acción dirigida.
+Las siguientes técnicas pueden ser usadas para la ingeniería social basada en computadora:
+
+    Phishing (Suplantación de identidad)
+    Correo basura (Spam mail)
+    Mensajería instantánea (Instant chat messenger)
+    Ataques de ventanas emergentes (Pop-up window attacks)
+    Software de miedo (Scareware)
+
+-----------------------------------------------------
+-----------------------------------------------------
+Basada en móviles:
+
+Técnicas de Ingeniería Social: Ingeniería Social basada en móviles
+
+    Ingeniería Social basada en móviles
+    Los atacantes usan aplicaciones móviles para llevar a cabo la ingeniería social basada en móviles. Los atacantes engañan a los usuarios imitando aplicaciones populares y creando aplicaciones móviles maliciosas con características atractivas y enviándolas a las principales tiendas de aplicaciones con el mismo nombre. Los usuarios, sin saberlo, descargan la aplicación maliciosa, permitiendo que el malware infecte su dispositivo.
+
+-----------------------------------------------------
+-----------------------------------------------------
+Basada en móviles:
+
+Publicación de aplicaciones maliciosas (Publishing malicious apps)
+Reempaquetado de aplicaciones legítimas (Repackaging legitimate apps)
+Uso de aplicaciones de seguridad falsas (Using fake security applications)
+
+Tool --> setooolkit
+Tool --> https://github.com/jimwangzx/ZPHISHER-automated-phishing-tool-
+Tool --> shellphish
+
+
+Research:
+PhishTank
+Virus Total
+ 
 ```
 
 
